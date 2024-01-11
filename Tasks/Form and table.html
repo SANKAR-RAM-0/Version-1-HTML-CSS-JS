@@ -1,0 +1,98 @@
+<html>
+    <head>
+    <title>Form and Table</title>
+    <style>
+        header {
+            padding: 10px;
+           background-color: blueviolet;
+           color: white;
+        }
+        form {
+            padding-left: 150px;
+            padding-right: 20px;
+            padding-bottom: 200px;
+            padding-top: 30px;
+           background-color: black;
+         color: white;
+        }
+        button {
+            padding: 4px;
+        }
+        table, td, th, tr {
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: white;
+            text-align: center;
+            width: 90%;
+            padding: 35px;
+            block-size: 0%;
+            
+        }
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: black;
+            gap: 15px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Registration Page</h2> 
+    </header>
+    <div class="Container">
+        <div class="one">
+    <form >
+        <div>
+        <label for="name" >Name</label>&nbsp;&nbsp;
+        <select name="name" id="name" required>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+        </select>
+        <input type="text" placeholder="Enter Your Name">
+        </div><br>
+        <div>
+            <label for="dob">Date of Birth</label>&nbsp;&nbsp;&nbsp;
+            <input type="date">
+        </div><br>
+        <div>
+            <label for="mail">E-Mail</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text">
+        </div><br>
+        <div>
+            <label for="mobileno">Mobile No</label>&nbsp;&nbsp;
+            <input type="number">
+        </div><br>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button>Create account</button>
+        </div><br>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button style="background-color: red; padding: 7px; ">Sign Up With Google</button>
+        </div><br>
+        <div><a style="color: royalblue;" href="">Already have an account? Login!</a></div>
+    </form></div>
+    <table>
+       <tr>
+        <th>How to use</th>
+        <tr>
+            <td>1. Create an account by registering or using google</td>
+        </tr><tr>
+                <td>2. Go to the Grievance page to upload your complaint</td>
+            </tr>
+            <tr>
+                <td>3. You can add images while filing your complaint</td>
+            </tr>
+            <tr>
+                <td>4. After that you can able to see the complaint details in the dashboard</td>
+            </tr>
+            <tr>
+                <td>5. You can see how much your complaint is processed in the dashboard</td>
+            </tr>
+        </tr>
+       </tr>
+    </table></div>
+    </div>
+</body>
+</html>
